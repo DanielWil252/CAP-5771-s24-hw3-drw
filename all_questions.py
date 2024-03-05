@@ -161,12 +161,12 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = {'A','B'}
+    answers["(a)"] = {"Group A", "Group B"}
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "For MIN heirarchical clustering, the clusters with the shortest distance between their closest points would be considered first. In this case, it would be groups A and B."
-
+    
     # type: set
-    answers["(b)"] = {'A','C'}
+    answers["(b)"] = {"Group A","Group C"}
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "For MAX heirarchical clustering, the clusters with the shortest maximum distance from their members would be considered for merging. In this case, it would be groups A and C."
